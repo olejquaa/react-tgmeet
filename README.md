@@ -1,2 +1,1 @@
-# react-tgmeet
-tg mini app 
+#tgmeet mini app

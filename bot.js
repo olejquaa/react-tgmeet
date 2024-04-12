@@ -1,8 +1,8 @@
 let tg = window.Telegram.WebApp;
 let data = tg.initDataUnsafe;
-tg.showAlert(`"Здарова, заебал", ${data.user.username}`);
+tg.showAlert(`"все работает", ${data.user.username}`);
 tg.sendData(data.user.username);
 
-localStorage.setItem("data", data);
+localStorage.setItem("name", data.user.username);
 
-console.log(localStorage.getItem("data"));
+console.log(localStorage.getItem("name"));

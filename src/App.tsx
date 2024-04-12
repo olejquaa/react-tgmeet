@@ -1,4 +1,5 @@
 import React from "react";
+import { bot } from "./tgbot";
 
 function App() {
   return (

@@ -23,6 +23,11 @@ bot.on("message", (msg) => {
       }
     }
   });
+
+  bot.on(message("web_app_data"), async (ctx) => {
+    const data = ctx.webAppData.data.json();
+    ctx.reply(`Ваше сообщение: ${data?.feedback}` ?? "empty message");
+  });
 });
 
 let tg = window.Telegram.WebApp;

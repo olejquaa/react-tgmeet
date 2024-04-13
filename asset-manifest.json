@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-tgmeet/static/js/main.9093a1b2.js",
+    "main.js": "/react-tgmeet/static/js/main.c40847d4.js",
     "index.html": "/react-tgmeet/index.html",
-    "main.9093a1b2.js.map": "/react-tgmeet/static/js/main.9093a1b2.js.map"
+    "main.c40847d4.js.map": "/react-tgmeet/static/js/main.c40847d4.js.map"
   },
   "entrypoints": [
-    "static/js/main.9093a1b2.js"
+    "static/js/main.c40847d4.js"
   ]
 }
